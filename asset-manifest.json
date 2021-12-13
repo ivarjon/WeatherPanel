@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WeatherPanel/static/css/main.2156ebd6.chunk.css",
-    "main.js": "/WeatherPanel/static/js/main.7f4b2501.chunk.js",
-    "main.js.map": "/WeatherPanel/static/js/main.7f4b2501.chunk.js.map",
+    "main.js": "/WeatherPanel/static/js/main.fee939b9.chunk.js",
+    "main.js.map": "/WeatherPanel/static/js/main.fee939b9.chunk.js.map",
     "runtime-main.js": "/WeatherPanel/static/js/runtime-main.a258cd00.js",
     "runtime-main.js.map": "/WeatherPanel/static/js/runtime-main.a258cd00.js.map",
     "static/js/2.16850de3.chunk.js": "/WeatherPanel/static/js/2.16850de3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a258cd00.js",
     "static/js/2.16850de3.chunk.js",
     "static/css/main.2156ebd6.chunk.css",
-    "static/js/main.7f4b2501.chunk.js"
+    "static/js/main.fee939b9.chunk.js"
   ]
 }
