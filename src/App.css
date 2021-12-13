@@ -1,22 +1,19 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  font-family: 'Readex Pro', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.input{
-  margin-top: 20px;
+.card{
+  background: #eaeaea;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  min-height: 200px;
+  max-width: 480px;
+  margin: 1em;
 }
