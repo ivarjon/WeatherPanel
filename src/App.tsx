@@ -16,8 +16,8 @@ function Weather() {
     .then((response) => response.json())
     .then(data => {
       setCity(input);
-      setTemp(data['main']['temp']  + " °C");
-      setDesc(data['weather'][0]['description']);
+      setTemp("City:\t" + data['main']['temp']  + " °C");
+      setDesc("Temperature:\t" + data['weather'][0]['description']);
     })
 
     .catch(err => alert("Invalid City Name"))
