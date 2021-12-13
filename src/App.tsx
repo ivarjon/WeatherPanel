@@ -29,7 +29,7 @@ function Weather() {
 
   return(
     <div>
-      <input type="text" className="inputValue" placeholder="Search" onChange={onChange} />
+      <input type="text" className="inputValue" placeholder="Search city" onChange={onChange} />
       <input type="submit" value="Submit" onClick={() => handleSubmit()} />
       <div className="display">
         <p id="name" />{city}<p/>
