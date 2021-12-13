@@ -15,9 +15,9 @@ function Weather() {
     fetch("https://api.openweathermap.org/data/2.5/weather?q=" + input + "&units=metric&appid=" + key)
     .then((response) => response.json())
     .then(data => {
-      setCity(input);
-      setTemp("City:\t" + data['main']['temp']  + " °C");
-      setDesc("Temperature:\t" + data['weather'][0]['description']);
+      setCity("City:\t\t" + input);
+      setTemp("Temperature:\t" + data['main']['temp']  + " °C");
+      setDesc("Description:\t" + data['weather'][0]['description']);
     })
 
     .catch(err => alert("Invalid City Name"))
