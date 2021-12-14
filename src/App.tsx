@@ -8,7 +8,7 @@ import './App.css';
 function Weather() {
   const key = "cde24c243c012a396950f571bcdd4836";
   var Labels:string[] = ["City: ", "Temperature: ", "Description: "];
-  const [labels, setLabels] = useState({first: '', second: '', third: ''});
+  const [labels, setLabels] = useState({first: 'Select City', second: '', third: ''});
   const [input, setInput] = useState('');
   const [city, setCity] = useState('');
   const [desc, setDesc] = useState('');
@@ -34,12 +34,16 @@ function Weather() {
   return(
     <div>
       <div className="card">
-        <input type="text" className="inputValue" placeholder="Search city" onChange={onChange} />
-        <input type="submit" value="Submit" onClick={() => handleSubmit()} />
         <div className="display">
           <h1><span className='label'>{labels.first}</span><span id="name" >{city}</span></h1>
           <p><span className='label'>{labels.second}</span><span id="desc" >{temp}</span></p>
           <p><span className='label'>{labels.third}</span><span id="temp" >{desc}</span></p>
+        </div>
+        <div className='inputs'>
+          <div className="inputsWrapper">
+            <input type="text" className="inputValue" placeholder="Search city" onChange={onChange} />
+            <input type="button" value="Submit" id="btn" onClick={() => handleSubmit()} />
+          </div>
         </div>
       </div>
     </div>
