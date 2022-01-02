@@ -1,3 +1,6 @@
+//npm start to deploy in browser
+//npm run deploy to push to github pages
+
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import { ChangeEvent } from 'react';
